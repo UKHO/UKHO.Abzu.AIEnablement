@@ -22,10 +22,12 @@ The goal is to:
 - **/docs/specs/templates**  
   Folder for spec-template_v.md
 
+- **.mcp.json**  
+  Configuration file for Microsoft Copilot settings. This will either need to be within the Visual Studio Solution or copied to your users folder.
+
 ---
 
 ## Getting Started
 1. Clone this repo:
-   ```bash
+   ```
    git clone https://github.com/CompanyName/CompanyName.TeamName.AIEnablement.git
-<img width="1095" height="834" alt="image" src="https://github.com/user-attachments/assets/ed14df5a-80cf-421b-83d9-a7be7b158ef9" />

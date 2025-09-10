@@ -1,0 +1,23 @@
+{
+  "inputs": [
+    {
+      "id": "ado_org",
+      "type": "promptString",
+      "description": "Azure DevOps organisation name"
+    }
+  ],
+  "servers": {
+    "github": {
+      "url": "https://api.githubcopilot.com/mcp/"
+    },
+    "microsoft.docs.mcp": {
+      "type": "http",
+      "url": "https://learn.microsoft.com/api/mcp"
+    },
+    "ado": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [ "-y", "@azure-devops/mcp", "${input:ado_org}" ]
+    }
+  }
+}
