@@ -32,7 +32,7 @@ ALWAYS use feature branches for new work.
 ## Command Line Usage
 - After running a command, verify its success before proceeding.
 - If a command fails, resolve the issue before moving on.
-- Do not chain commands with `&&`instead run them sequentially.
+- Do not chain commands with `&&` instead run them sequentially.
 
 ## Specifications and Plans: Structure, Naming, Versioning
 Follow a controlled requirements-gathering and documentation process.
