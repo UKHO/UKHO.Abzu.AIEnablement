@@ -13,7 +13,7 @@
 _Provide a clear overview of what the system is and why it is being built. Mention key goals, target users, and high-level outcomes._
 
 **Objective**  
-_Explain the business or technical objectives � e.g., platform goals, monetization model, compliance targets._
+_Explain the business or technical objectives — e.g., platform goals, monetization model, compliance targets._
 
 ---
 
@@ -100,11 +100,11 @@ _Repeat this table for each module._
 | DM6 | Payment | _Payment transaction details_ | _Gateway, status, transaction ID, amount_ |
 
 **Key Relationships**:
-- _Tenant ? Users (1:many)_
-- _Tenant ? Subscription (1:1)_
-- _Subscription ? Plan (many:1)_
-- _Subscription ? Invoices (1:many)_
-- _Invoice ? Payments (1:many)_
+- _Tenant → Users (1:many)_
+- _Tenant → Subscription (1:1)_
+- _Subscription → Plan (many:1)_
+- _Subscription → Invoices (1:many)_
+- _Invoice → Payments (1:many)_
 
 ---
 
