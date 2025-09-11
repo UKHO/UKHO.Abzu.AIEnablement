@@ -2,6 +2,7 @@
 
 ## Overview
 This repository is a central hub for our work with **AI-assisted development**.  
+
 It contains curated prompts, guidelines, and supporting documentation that help us leverage tools such as **GitHub Copilot** and emerging AI agents effectively in our coding practices.
 
 The goal is to:
@@ -9,6 +10,22 @@ The goal is to:
 - Standardize approaches for AI-assisted development across the team.
 - Share learnings, patterns, and practices that scale with future AI tooling.
 - Provide a reference point for experimenting with agent-driven coding workflows.
+
+## Writing New Prompts
+
+Your AI is not a mind Reader!
+
+Treat the AI like a new colleague and if you expect it to work in a specific way you must include specific instructions in your prompt.
+
+Consider the following best practices when writing prompts:
+
+- Chain of Thought Reasoning: Prompt the AI "Before you respond to my query walk me through your thought process step by step"
+
+- Few-Shot Learning: Provide examples of the expected output format to help the AI understand your requirements. Tell the AI what good looks like and what bad looks like!
+
+- Reverse Prompting: Prompt the AI to ask clarifying questions and iterate to build up a better understanding of the task.
+
+- Assign a Role to the AI: Clearly define the role you want the AI to assume (e.g., "You are a senior software engineer..."). This narrows down the context and helps the AI generate more relevant responses.
 
 ---
 
