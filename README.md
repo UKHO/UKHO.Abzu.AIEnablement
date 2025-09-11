@@ -19,7 +19,7 @@ Treat the AI like a new colleague and if you expect it to work in a specific way
 
 Consider the following best practices when writing prompts:
 
-- Chain of Thought Reasoning: Prompt the AI "Before you respond to my query walk me through your thought process step by step"
+- Chain of Thought Reasoning: Prompt the AI "Before you respond to my query, walk me through your thought process step by step"
 
 - Few-Shot Learning: Provide examples of the expected output format to help the AI understand your requirements. Tell the AI what good looks like and what bad looks like!
 
