@@ -13,7 +13,7 @@ The goal is to:
 
 ## Writing New Prompts
 
-Your AI is not a mind Reader!
+Your AI is not a mind reader!
 
 Treat the AI like a new colleague and if you expect it to work in a specific way you must include specific instructions in your prompt.
 
